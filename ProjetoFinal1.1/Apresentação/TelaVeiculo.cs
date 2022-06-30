@@ -28,5 +28,11 @@ namespace ProjetoFinal1._1.Apresentação
             ConsultarVeiculo consulta = new ConsultarVeiculo(); 
             consulta.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+        }
     }
 }

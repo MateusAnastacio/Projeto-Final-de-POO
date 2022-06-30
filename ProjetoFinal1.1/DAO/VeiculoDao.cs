@@ -13,17 +13,17 @@ namespace ProjetoFinal1._1.DAO
         public string mensagem = "";
         SqlCommand cmd = new SqlCommand();
         Conexao con = new Conexao();
-        Cliente obj = new Cliente();
-        public String cadastrarVeiculo(Veiculo veiculo)
+        
+        public String cadastrarVeiculo(String placa, String marca, String modelo, String cor, String ano)
         {
 
 
-            cmd.CommandText = "INSERT INTO veiculo (placa, marca, modelo, cor, ano) VALUES(@placa, @marca, @modleo, @cor, @ano); ";
-            cmd.Parameters.AddWithValue("@placa", veiculo.placa);
-            cmd.Parameters.AddWithValue("@marca", veiculo.marca);
-            cmd.Parameters.AddWithValue("@modelo", veiculo.modelo);
-            cmd.Parameters.AddWithValue("@cor", veiculo.cor);
-            cmd.Parameters.AddWithValue("@ano", veiculo.ano);
+            cmd.CommandText = "INSERT INTO veiculo values(placa, marca, modelo, cor, ano) VALUES(@placa, @marca, @modleo, @cor, @ano); ";
+            cmd.Parameters.AddWithValue("@placa", placa);
+            cmd.Parameters.AddWithValue("@marca", marca);
+            cmd.Parameters.AddWithValue("@modelo", modelo);
+            cmd.Parameters.AddWithValue("@cor", cor);
+            cmd.Parameters.AddWithValue("@ano", ano);
 
             try
             {

@@ -161,7 +161,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CadVeiculo";
-            this.Text = "Form2";
+            this.Text = "7";
             this.ResumeLayout(false);
             this.PerformLayout();
 

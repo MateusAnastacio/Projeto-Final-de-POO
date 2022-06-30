@@ -25,7 +25,7 @@ namespace ProjetoFinal1._1.Apresentação
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Clientes menu = new Clientes();
+            CadCliente menu = new CadCliente();
             menu.Show();
         }
     }

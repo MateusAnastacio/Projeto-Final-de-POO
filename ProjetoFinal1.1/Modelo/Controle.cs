@@ -27,18 +27,30 @@ namespace ProjetoFinal1._1.Modelo
             this.mensagem = loginDao.cadastrar(login, senha, confSenha);
             return mensagem;
         }
-        public Cliente cadastrarCliente()
+        public String cadastrarCliente(String id, String nome, String sexo, String rg, String cpf, String tipoPessoa, String cep, String uf, String endereco, String numero, String complento, String telefone, String email)
         {
-            Cliente obj = new Cliente();
+            
             ClienteDao cliente = new ClienteDao();
-            obj = cliente.cadastrarCliente(obj.idCliente, obj.nome, obj.sexo, obj.rg, obj.cpf, obj.tipoPessoa, obj.cep, obj.uf, obj.endereco, obj.numero, obj.complento, obj.telefone, obj.email);       
-            return obj; 
+            this.mensagem = cliente.cadastrarCliente(id,
+                                                     nome,
+                                                     sexo,
+                                                     rg,
+                                                     cpf,
+                                                     tipoPessoa,
+                                                     cep,
+                                                     uf,
+                                                     endereco,
+                                                     numero,
+                                                     complento,
+                                                     telefone,
+                                                     email);       
+            return mensagem; 
         }
-        public String CadastrarVeiculo(Veiculo veiculo)
+        public String CadastrarVeiculo(String placa, String marca, String modelo, String cor, String ano)
         {
             
             VeiculoDao veiculodao = new VeiculoDao();
-            this.mensagem = veiculodao.cadastrarVeiculo(veiculo.placa, veiculo.marca, veiculo.modelo, veiculo.cor, veiculo.ano);
+            this.mensagem = veiculodao.cadastrarVeiculo(placa, marca, modelo, cor, ano);
             return mensagem;
         }
     }

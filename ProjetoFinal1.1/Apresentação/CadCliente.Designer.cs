@@ -335,6 +335,7 @@
             this.btnCadastrar.TabIndex = 30;
             this.btnCadastrar.Text = "CADASTRAR";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // button1
             // 

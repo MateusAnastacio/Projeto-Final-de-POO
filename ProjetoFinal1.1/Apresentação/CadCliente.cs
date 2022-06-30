@@ -30,13 +30,10 @@ namespace ProjetoFinal1._1.Apresentação
 
         }
 
-        public void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            ClienteDao cliente = new ClienteDao();
-            Controle controle = new Controle();
-            string obj = controle.cadastrarCliente(txbId.Text, txbNome.Text, cbSexo.Text, txbRg.Text, txbCpf.Text, cbTipoPessoa.Text, txbCep.Text, cbUf.Text, txbEndereço.Text, txbNumero.Text, txbComplemento.Text, txbTelefone.Text, txbEmai.Text);
             
-            MessageBox.Show(obj, "cadastroCliente", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
 
         }
 
@@ -45,5 +42,29 @@ namespace ProjetoFinal1._1.Apresentação
             Menu menu = new Menu();
             menu.Show();
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            Controle controle = new Controle();
+            string mensagem = controle.cadastrarCliente(txbId.Text, txbNome.Text, cbSexo.Text, txbRg.Text, txbCpf.Text, cbTipoPessoa.Text, txbCep.Text, cbUf.Text, txbEndereço.Text, txbNumero.Text, txbComplemento.Text, txbTelefone.Text, txbEmai.Text);
+
+            MessageBox.Show(mensagem, "cadastroCliente", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
     }
 }
+//private void button1_Click(object sender, EventArgs e)
+//{
+//    Controle controle = new Controle();
+//    string mensagem = controle.cadastrar(txbLogin.Text, txbSenha.Text, txbConfSenha.Text);
+//    if (controle.tem)
+//    {
+//        MessageBox.Show(mensagem, "Cadastro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+//    }
+//    else
+//    {
+//        MessageBox.Show(controle.mensagem);
+
+//    }
+
+//}

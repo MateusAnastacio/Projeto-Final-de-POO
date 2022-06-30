@@ -19,25 +19,25 @@ namespace ProjetoFinal1._1.DAO
         public string mensagem = "";
         SqlCommand cmd = new SqlCommand();
         Conexao con = new Conexao();      
-        Cliente obj = new Cliente();
-        public String cadastrarCliente(Cliente obj)
+        
+        public String cadastrarCliente(String id, String nome, String sexo, String rg, String cpf, String tipoPessoa, String cep, String uf, String endereco, String numero, String complento, String telefone, String email)
         {     
 
                 
                 cmd.CommandText = "insert into cliente (idCliente, nome, sexo, rg, cpf, tipoPessoa, cep, uf, enderco, numero, complemento, telefone, emai) values ( @idCliente, @nome,  @sexo, @rg, @cpf, @tipoPessoa, @cep, @uf, @endereco, @numero, @complemento, @telefone, @emai);";
-                cmd.Parameters.AddWithValue("@idCliente", obj.idCliente);
-                cmd.Parameters.AddWithValue("@nome", obj.nome);
-                cmd.Parameters.AddWithValue("@sexo", obj.sexo);
-                cmd.Parameters.AddWithValue("@rg", obj.rg);
-                cmd.Parameters.AddWithValue("@cpf", obj.cpf);
-                cmd.Parameters.AddWithValue("@tipoPessoa", obj.tipoPessoa);
-                cmd.Parameters.AddWithValue("@cep", obj.cep);
-                cmd.Parameters.AddWithValue("@uf", obj.uf);
-                cmd.Parameters.AddWithValue("@endereco", obj.endereco);
-                cmd.Parameters.AddWithValue("@numero", obj.numero);
-                cmd.Parameters.AddWithValue("@complemento", obj.complento);
-                cmd.Parameters.AddWithValue("@telefone", obj.telefone);
-                cmd.Parameters.AddWithValue("@emai", obj.email);          
+                cmd.Parameters.AddWithValue("@idCliente", id);
+                cmd.Parameters.AddWithValue("@nome", nome);
+                cmd.Parameters.AddWithValue("@sexo", sexo);
+                cmd.Parameters.AddWithValue("@rg", rg);
+                cmd.Parameters.AddWithValue("@cpf", cpf);
+                cmd.Parameters.AddWithValue("@tipoPessoa", tipoPessoa);
+                cmd.Parameters.AddWithValue("@cep", cep);
+                cmd.Parameters.AddWithValue("@uf", uf);
+                cmd.Parameters.AddWithValue("@endereco", endereco);
+                cmd.Parameters.AddWithValue("@numero", numero);
+                cmd.Parameters.AddWithValue("@complemento", complento);
+                cmd.Parameters.AddWithValue("@telefone", telefone);
+                cmd.Parameters.AddWithValue("@emai", email);          
             try
             {
                 cmd.Connection = con.conectar();
