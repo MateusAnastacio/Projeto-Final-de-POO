@@ -60,12 +60,29 @@ namespace ProjetoFinal1._1.Apresentação
         private void btnEstoque_Click(object sender, EventArgs e)
         {
             ActiveButton(btnEstoque);
-            FormShow(new Estoque());
+            FormShow(new ConsultarVeiculo());
         }
 
         private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnVendas_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btnVendas);
+            FormShow(new TelaVendas());
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btnClientes);
+            FormShow(new Clientes());
+        }
+
+        private void btnPerfil_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

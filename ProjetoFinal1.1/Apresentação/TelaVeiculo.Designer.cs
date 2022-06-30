@@ -1,6 +1,6 @@
 ﻿namespace ProjetoFinal1._1.Apresentação
 {
-    partial class TelaVendas
+    partial class TelaVeiculo
     {
         /// <summary>
         /// Required designer variable.
@@ -30,38 +30,48 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(83, 57);
+            this.button1.Location = new System.Drawing.Point(59, 110);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(168, 194);
+            this.button1.Size = new System.Drawing.Size(166, 104);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Nova Venda";
+            this.button1.Text = "Cadastrar Veiculo";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(309, 57);
+            this.button2.Location = new System.Drawing.Point(305, 107);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 194);
+            this.button2.Size = new System.Drawing.Size(166, 101);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Consultar Venda";
+            this.button2.Text = "Consultar veiculo";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // TelaVendas
+            // button3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(584, 411);
+            this.button3.Location = new System.Drawing.Point(546, 110);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(166, 98);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Editar veiculo";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // TelaVeiculo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(764, 362);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "TelaVendas";
-            this.Text = "TelaVendas";
+            this.Name = "TelaVeiculo";
+            this.Text = "TelaVeiculo";
             this.ResumeLayout(false);
 
         }
@@ -70,5 +80,6 @@
 
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }

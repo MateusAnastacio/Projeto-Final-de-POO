@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjetoFinal1._1.Apresentação
 {
-    public partial class TelaEstoque : Form
+    public partial class ConsultarVenda : Form
     {
-        public TelaEstoque()
+        public ConsultarVenda()
         {
             InitializeComponent();
         }

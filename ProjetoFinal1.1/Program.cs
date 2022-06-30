@@ -1,3 +1,13 @@
+using ProjetoFinal1._1.Modelo;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 namespace ProjetoFinal1._1
 {
     internal static class Program
@@ -12,6 +22,7 @@ namespace ProjetoFinal1._1
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
+            
         }
     }
 }

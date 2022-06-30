@@ -23,10 +23,8 @@ namespace ProjetoFinal1._1
                     MessageBox.Show("Logado com sucesso", "entrando", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Menu bv = new Menu();
                     bv.Show();
+                    
                     //preciso conseguir fechar a tela anterior("Form1")
-                    
-                                   
-                    
                 }
                 else
                 {
@@ -38,7 +36,6 @@ namespace ProjetoFinal1._1
                 MessageBox.Show(controle.mensagem);
             }
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();

@@ -16,5 +16,17 @@ namespace ProjetoFinal1._1.Apresentação
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Clientes menu = new Clientes();
+            menu.Show();
+        }
     }
 }

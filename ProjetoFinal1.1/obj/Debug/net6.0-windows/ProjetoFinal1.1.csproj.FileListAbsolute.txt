@@ -28,5 +28,11 @@ C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-win
 C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.Clientes.resources
 C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.Estoque.resources
 C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.Perfil.resources
-C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.TelaEstoque.resources
 C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.TelaVendas.resources
+C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.TelaNovaVenda.resources
+C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.CadCliente.resources
+C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.CadVeiculo.resources
+C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.ConsultarVeiculo.resources
+C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.TelaVeiculo.resources
+C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.Venda.resources
+C:\Users\mateu\source\repos\ProjetoFinal1.1\ProjetoFinal1.1\obj\Debug\net6.0-windows\ProjetoFinal1._1.Apresentação.ConsultarVenda.resources

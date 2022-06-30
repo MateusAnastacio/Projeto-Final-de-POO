@@ -106,6 +106,7 @@
             this.btnPerfil.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPerfil.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPerfil.UseVisualStyleBackColor = true;
+            this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
             // 
             // btnClientes
             // 
@@ -128,6 +129,7 @@
             this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnClientes.UseVisualStyleBackColor = true;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnVendas
             // 
@@ -150,6 +152,7 @@
             this.btnVendas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVendas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnVendas.UseVisualStyleBackColor = true;
+            this.btnVendas.Click += new System.EventHandler(this.btnVendas_Click);
             // 
             // btnEstoque
             // 
@@ -168,7 +171,7 @@
             this.btnEstoque.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnEstoque.Size = new System.Drawing.Size(200, 62);
             this.btnEstoque.TabIndex = 2;
-            this.btnEstoque.Text = "Estoque";
+            this.btnEstoque.Text = "Veiculos";
             this.btnEstoque.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEstoque.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEstoque.UseVisualStyleBackColor = true;
@@ -231,9 +234,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(132, 170);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(296, 65);
+            this.label1.Size = new System.Drawing.Size(260, 65);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nova Venda ";
+            this.label1.Text = "Bem Vindo";
             // 
             // Menu
             // 
