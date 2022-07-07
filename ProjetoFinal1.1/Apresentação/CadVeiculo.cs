@@ -24,7 +24,7 @@ namespace ProjetoFinal1._1.Apresentação
             Controle controle = new Controle();
             string mensagem = controle.CadastrarVeiculo(txbPlaca.Text, txbMarca.Text, txbModelo.Text, txbCor.Text, txbAno.Text);       
 
-            MessageBox.Show(mensagem, "Cadastro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(mensagem, "CadastroVeiculo", MessageBoxButtons.OK, MessageBoxIcon.Information);
           
         }
 

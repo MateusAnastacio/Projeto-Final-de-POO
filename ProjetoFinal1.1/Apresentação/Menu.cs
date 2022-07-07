@@ -60,7 +60,7 @@ namespace ProjetoFinal1._1.Apresentação
         private void btnEstoque_Click(object sender, EventArgs e)
         {
             ActiveButton(btnEstoque);
-            FormShow(new ConsultarVeiculo());
+            FormShow(new TelaVeiculo());
         }
 
         private void btnSair_Click(object sender, EventArgs e)

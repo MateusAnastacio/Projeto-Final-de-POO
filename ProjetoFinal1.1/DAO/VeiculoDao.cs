@@ -17,8 +17,8 @@ namespace ProjetoFinal1._1.DAO
         public String cadastrarVeiculo(String placa, String marca, String modelo, String cor, String ano)
         {
 
-
-            cmd.CommandText = "INSERT INTO veiculo values(placa, marca, modelo, cor, ano) VALUES(@placa, @marca, @modleo, @cor, @ano); ";
+            
+            cmd.CommandText = "insert into veiculo (placa, marca, modelo, cor, ano) values (@placa, @marca, @modelo, @cor, @ano);";
             cmd.Parameters.AddWithValue("@placa", placa);
             cmd.Parameters.AddWithValue("@marca", marca);
             cmd.Parameters.AddWithValue("@modelo", modelo);
@@ -31,11 +31,6 @@ namespace ProjetoFinal1._1.DAO
                 cmd.ExecuteNonQuery();
                 con.desconectar();
                 this.mensagem = "Cadastrado com sucesso";
-
-
-
-
-
             }
             catch (SqlException)
             {
